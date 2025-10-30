@@ -1,0 +1,92 @@
+{
+    "test": {
+        "q1": {
+            "q": "What kind of dress would you be glad to see on yourself or on your partner during the Christmas Ball for the Triwizard Tournament?",
+            "opt": ["1", "2", "3", "4"],
+            "p": ["1", "2", "3", "4"],
+            "img": "Q1.jpg"
+            },
+        "q2": {
+            "q": "What snack would you like to eat?",
+            "opt": ["Yogurt, unsweetened snacks", "Fruits", "Chips, crackers", "Sweets"],
+            "p": ["3", "1", "4", "2"],
+            "img": "Q2.jpg"
+            },
+        "q3": {
+            "q" : "Which of these quotes from Harry Potter is your favorite?",
+            "opt" : [
+                    "Anything's possible if you've got enough nerve. (Ginny Weasley)",
+                    "Well, it may have escaped your notice, but life isn’t fair. (Severus Snape)",
+                    "The truth: It is a beautiful and terrible thing, and should therefore be treated with caution (Albus Dumbledore)",
+                    "It does not do well to dwell on dreams and forget to live. (Albus Dumbledore)"
+                    ],
+            "p": ["4", "2", "3", "1"],
+            "img":"Q3.png"
+            },
+        "q4": {
+            "q" : "You are in the forest and you hear shots from magic wands and cries for help. Your first thoughts and actions:",
+            "opt" : ["Run to save the victims! As soon as possible!", "Call someone else for help and go rescue the victims together", "You won't risk your life to save someone - it could be a trap.", "You are afraid, but also feel sorry for the victims... What to do..."],
+            "p": ["2", "1", "4", "3"],
+            "img":"Q4.png"
+            },
+        "q5": {
+            "q" : "What will you choose?",
+            "opt" : ["morning", "day", "evening", "night"],
+            "p": ["3", "2", "1", "4"],
+            "img":"Q5.jpg"
+            },
+        "q6": {
+            "q" : "queschen",
+            "opt" : ["a6", "a66", "a666"],
+            "p": ["1", "2", "3", "4"],
+            "img":"Q6.jpg"
+            },
+        "q7": {
+            "q" : "What kind of movies do you like?",
+            "opt" : ["BBC, documentaries", "Fantasy, detectives", "Action", "Doramas, melodramas"],
+            "p": ["1", "2", "4", "3"],
+            "img":"Q7.jpg"
+            },
+        "q8": {
+            "q" : "What kind of weather do you prefer?",
+            "opt" : ["sunny, but the main thing is not hot", "Rain", "Cloudy", "the main thing is sunny"],
+            "p": ["2", "4", "1", "3"],
+            "img":"Q8.jpg"
+            },
+        "q9": {
+            "q" : "How do you feel about learning?",
+            "opt" : ["😃", "🙂", "😐", "☹️"],
+            "p": ["1", "3", "2", "4"],
+            "img":"Q9.jpg"
+            },
+        "q10": {
+            "q" : "What is your favorite season?",
+            "opt" : ["Summer", "Autumn", "Winter", "Spring"],
+            "p": ["2", "1", "4", "3"],
+            "img":"Q10.jpg"
+            },
+        "q11": {
+            "q" : "What type of vacation will you choose?",
+            "opt" : ["To go somewhere, for example, on a hike", "Camping, fishing, picnic", "Be anywhere, but most importantly alone", "Stay at home"],
+            "p": ["2", "3", "4", "1"],
+            "img":"Q11.jpg"
+            },
+        "q12": {
+            "q" : "Your pet in the world of Harry Potter should be...",
+            "opt" : ["Faithful friend", "Faithful friend, but who appears only when needed", "Faithful assistant", "With the same character as yours"],
+            "p": ["2", "4", "1", "3"],
+            "img":"Q12.jpg"
+            }
+        },
+    "answers":["Language set: ", "Language haven`t found", "Hmm...", " or ", "Please ", "🤞🏼", "Do you have any wishes?...", "Choose language:"],
+    "resault": {"1": ["Test is over!", "And you`r faculty is..."],
+                "img": ["G.jpg", "S.jpg", "R.jpg", "H.jpg"],
+                "text": [
+                    "Gryffindor! You`re very brave and smart, always ready to help. Of coarse sometimes emotions control you but your friends (you have a lot of them) help you♥ ",
+                    "Slytherin! You`re really smart and cunning. You can easily control your emotions in public. You always knew what do you want and you always get it♥",
+                    "Ravenclaw! You`re really clever, smart and fair. You always think coolly in any situation.♥",
+                    "Hufflepuff! You`re really kind and generous. If someone thinks you are weird it don`t matter to you because the the main think is that you like yourself. Everyone are dreaming about friend like you♥"
+                        ]
+                },
+    "facultus" :["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"]
+   }

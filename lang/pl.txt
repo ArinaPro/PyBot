@@ -1,0 +1,92 @@
+{
+    "test": {
+        "q1": {
+            "q": "Jaką sukienkę chciałbyś zobaczyć na sobie lub swoim partnerze na Balu Bożonarodzeniowym Turnieju Trójmagicznego?",
+            "opt": ["1", "2", "3", "4"],
+            "p": ["1", "2", "3", "4"],
+            "img": "Q1.jpg"
+            },
+        "q2": {
+            "q": "Co będziesz jadł?",
+            "opt": ["Jogurty, przekąski niesłodzone", "Owoce", "Chipsy, krakersy", "Słodycze"],
+            "p": ["3", "1", "4", "2"],
+            "img": "Q2.jpg"
+            },
+        "q3": {
+            "q" : "Który z tych cytatów z Harry Pottera jest twoim ulubionym?",
+            "opt" : [
+                    "Wszystko jest możliwe, jeśli masz dość nerwów. (Ginny Weasley)",
+                    "Cóż, być może umknęło to twojej uwadze, ale życie nie jest sprawiedliwe. (Severus Snape)",
+                    "Prawda: To piękna i straszna rzecz, dlatego należy traktować ją ostrożnie (Albus Dumbledore)",
+                    "Niedobrze jest rozpamiętywać marzenia i zapominać o życiu. (Albus Dumbledore)"
+                    ],
+            "p": ["4", "2", "3", "1"],
+            "img":"Q3.png"
+            },
+        "q4": {
+            "q" : "Jesteś w lesie, słyszysz strzały z magicznych różdżek i wołanie o pomoc. Twoje pierwsze myśli i działania:",
+            "opt" : ["Biegnij, aby ocalić ofiary! Tak szybko, jak to możliwe!", "Zadzwoń po pomoc do kogoś innego i wspólnie uratujcie ofiary", "Nie będziesz ryzykował życia, żeby kogoś uratować - to może być pułapka.", "Boisz się, ale jednocześnie współczujesz ofiarom... Co robić..."],
+            "p": ["2", "1", "4", "3"],
+            "img":"Q4.png"
+            },
+        "q5": {
+            "q" : "Co wybierzesz?",
+            "opt" : ["rano", "dzień", "wieczór", "noc"],
+            "p": ["3", "2", "1", "4"],
+            "img":"Q5.jpg"
+            },
+        "q6": {
+            "q" : "queschen",
+            "opt" : ["a6", "a66", "a666"],
+            "p": ["1", "2", "3", "4"],
+            "img":"Q6.jpg"
+            },
+        "q7": {
+            "q" : "Jakie filmy lubisz?",
+            "opt" : ["BBC, filmy dokumentalne", "Fantasy, detektywi", "Akcja", "Doramy, melodramaty"],
+            "p": ["1", "2", "4", "3"],
+            "img":"Q7.jpg"
+            },
+        "q8": {
+            "q" : "jaką pogodę wolisz?",
+            "opt" : ["Jest słonecznie, ale najważniejsze, że nie jest gorąco", "Deszcz", "Pochmurny", "Najważniejsze jest słoneczne"],
+            "p": ["2", "4", "1", "3"],
+            "img":"Q8.jpg"
+            },
+        "q9": {
+            "q" : "Co sądzisz o nauce?",
+            "opt" : ["😃", "🙂", "😐", "☹️"],
+            "p": ["1", "3", "2", "4"],
+            "img":"Q9.jpg"
+            },
+        "q10": {
+            "q" : "Jaka jest Twoja ulubiona pora roku?",
+            "opt" : ["Lato", "Jesień", "Zima", "Wiosna"],
+            "p": ["2", "1", "4", "3"],
+            "img":"Q10.jpg"
+            },
+        "q11": {
+            "q" : "Jaki rodzaj wakacji wybierzesz?",
+            "opt" : ["Wyjechać gdzieś, na przykład na wycieczkę", "Kemping, wędkarstwo, piknik", "Bądź gdziekolwiek, ale co najważniejsze sam", "Siedź w domu"],
+            "p": ["2", "3", "4", "1"],
+            "img":"Q11.jpg"
+            },
+        "q12": {
+            "q" : "Twoim zwierzakiem w świecie Harry'ego Pottera powinno być...",
+            "opt" : ["Wierny przyjaciel", "Wierny przyjaciel, który pojawia się tylko w razie potrzeby", "Wierny asystent", "Z takim samym charakterem jak twój"],
+            "p": ["2", "4", "1", "3"],
+            "img":"Q12.jpg"
+            }
+        },
+    "answers":["Język jest ustawiony: ", "Nie znaleziono języka", "Hmm...", " Lub ", "Proszę ", "🤞🏼", "Czy masz jakieś życzenia?...", "Wybierz język:"],
+    "resault": {"1": ["Test jest zakończony!", "A twój fakultet to..."],
+                "img": ["G.jpg", "S.jpg", "R.jpg", "H.jpg"],
+                "text": [
+                    "Gryffindor! Jesteś bardzo odważny i mądry, zawsze gotowy do pomocy. To prawda, czasami emocje kontrolują Cię, ale Twoi przyjaciele (a masz ich wielu) Ci pomagają♥",
+                    "Slytherinie! Jesteś naprawdę sprytny i przebiegły. Możesz łatwo kontrolować swoje emocje w miejscach publicznych. Zawsze wiedziałeś czego chcesz i zawsze to dostawałeś♥",
+                    "Ravenclaw! Jesteś naprawdę mądry, mądry i uczciwy. Zawsze myślisz na chłodno w każdej sytuacji.♥",
+                    "Hufflepuff! Jesteś naprawdę miły i hojny. Jeśli ktoś myśli, że jesteś dziwny, nie ma to dla ciebie znaczenia, ponieważ najważniejsze jest to, że lubisz siebie. Wszyscy marzą o takim przyjacielu jak ty ♥"
+                        ]
+                },
+    "facultus" :["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"]
+   }
